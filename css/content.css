@@ -1,0 +1,139 @@
+/********************************************************************
+ * Filename: content.css
+ * Purpose:  mobile content
+ * Author:   Mandy (mandy@bandrich.com)
+ * Create:   2013-05-31
+ * Update:   2013-05-31
+ * Version:  0.0.0.1
+**********************************************************************/
+html,body {
+	background-color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+}
+.bannner{
+
+    color: #FFFFFF;
+}
+
+.form-login {
+
+    background-color: #f0f0f0;
+    padding: 19px 29px 29px;
+    border: 1px solid #e5e5e5;
+    
+    -webkit-border-radius: 5px;                       /*For safari, google chrome and old webkit*/
+    -moz-border-radius: 5px;                          /*For firefox and old gecko*/
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);    /*For safari, google chrome and old webkit*/
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);       /*For firefox and old gecko*/
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.copyright{
+
+    color:#FFFFFF;
+    
+}
+
+#selectLanguage{
+
+    max-width: 150px;
+
+}
+
+
+/*=============================media query=============================*/
+
+
+@media (max-width: 767px) {
+.form-login {   
+
+    max-width: 250px;
+    margin: 0 auto 20px;
+    
+}    
+
+}
+
+/* Smartphones (portrait and landscape) */
+@media (max-width : 480px) {
+
+body { 
+    min-height:400px;
+    padding:10px 20px 10px 20px;
+}
+
+.form-login-heading {
+    font-size: 15pt;
+    }
+
+.form-login {   
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+
+#selectLanguage,
+.form-login ,
+.form-login input[type="text"],
+.form-login input[type="password"] {
+
+    font-size: 12px;
+    height: auto;
+    margin-bottom: 11px;
+    padding: 3px 5px;
+    
+} 
+
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+body {
+
+    min-height:450px;
+    padding-left:25px; 
+    padding-right:25px;
+    font-size: 12pt;
+    
+} 
+
+.form-login {   
+
+    max-width: 250px;
+    margin: 0 auto 20px;
+    
+}   
+}
+
+@media (min-width: 980px) {
+
+body {
+
+    min-height:500px;
+    padding-left:30px; 
+    padding-right:30px;
+    font-size: 12pt;
+    
+}
+
+.form-login {   
+
+    max-width: 300px;
+    margin: 0 auto 20px;
+    
+}    
+
+#selectLanguage,
+.form-login ,
+.form-login input[type="text"],
+.form-login input[type="password"] {
+
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+    
+}
+}
